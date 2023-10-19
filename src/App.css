@@ -1,0 +1,37 @@
+    .panelForm{
+        padding: 20px;
+        background-color: lightgreen;
+        border: 2px solid green;
+    }
+
+    .panel-light,
+    .panel-dark{
+    border: 2px solid blue;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  .panel-light {
+    color: #222;
+    background: #fff;
+  }  
+  .panel-dark {
+    color: #fff;
+    background: #222;
+  }
+  
+  .button-light,
+  .button-dark {
+    padding: 1em;
+    margin: 2em;
+  }
+  
+  .button-dark {
+    background: #222;
+    color: #fff;
+  }
+  
+  .button-light {
+    background: #fff;
+    color: #222;
+  }

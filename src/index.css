@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center_screen {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 50%;
+  max-width: 90%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav a {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: red;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
+button{
+  padding: 0.3em;
+  border: 1px solid grey;
+}
+
+button:hover{
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
